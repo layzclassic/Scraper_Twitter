@@ -42,10 +42,10 @@ driver.get('https://www.twitter.com/login')
 
 # login
 username = driver.find_element_by_xpath('//input[@name="seeion[username_or_email]"]')
-username.send_keys('suenrankine@gmail.com')
+username.send_keys('')
 
 password = driver.find_element_by_xpath('//input[@name="seeion[session[password]"]')
-password.send_keys('waiyin6699')
+password.send_keys('')
 
 password.send_keys(Keys.RETURN)
 
