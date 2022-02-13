@@ -9,7 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 # extract data from tweet data
-def get_tweet_datda(card):
+def get_tweet_data(card):
     # user name
     username = card.find_element_by_xpath('/div[2]/div[1]/span').text
     # handle (.// -abbrevation to find the first span tag after the current tag
